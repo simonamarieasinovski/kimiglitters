@@ -1,1 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
+
+$body-bg: #000000;
+$navbar-default-bg: #FFCCFF;
+$font-family-sans-serif: 'Merriweather', "Helvetica Neue, Helvetica, Arial, sans-serif";
+$navbar-default-link-color: black;
+$jumbotron-bg: #FFF5FF;
+$btn-primary-bg: #FFCCFF;
+$btn-primary-color: black;
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
