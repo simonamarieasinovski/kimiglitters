@@ -77,4 +77,8 @@ Kimiglitters::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Required for Heroku
+  # PUT ROOT URL HERE
+  config.action_mailer.default_url_options = { :host => 'http://kimiglitters.herokuapp.com/' }
 end
