@@ -1,0 +1,33 @@
+<div class="jumbotron center">
+	<h1>kimiglitters online</h1>
+	<% if user_signed_in? %>
+		rock out
+	<% else %>
+
+<p> 
+
+	<br> Hey Kimi, <br>
+
+<br>
+I love you. <br>
+
+<br>
+
+This site is dedicated to you. 
+
+<br>
+
+And Charlotte, Siobhan, Kate and Lauren. 
+
+<br>
+
+And kinda Danielle La Porte and Maria Forleo.
+
+<br>
+<br>
+    <%= link_to "Log in", new_user_session_path, class: "btn btn-primary btn-lg" %>
+	   	<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+<br>
+</p>
+<% end %>
+</div>
