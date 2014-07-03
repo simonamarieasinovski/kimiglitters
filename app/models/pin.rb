@@ -6,4 +6,9 @@ class Pin < ActiveRecord::Base
 	:storage => :s3,
 	:bucket => 'kimiglitters',
 	:s3_credentials => {:access_key_id => ENV['AKIAJBQMHEK2RSVALDQQ'], :secret_access_key => ENV['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']}
+
+	validates :image, presence: true
+	validates :description, presence: true
+
+
 end
