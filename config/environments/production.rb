@@ -85,9 +85,9 @@ Kimiglitters::Application.configure do
   config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
-    :bucket => ENV['AWS_BUCKET'],
-    :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
-    :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+    :bucket => ENV['kimiglitters'],
+    :access_key_id => ENV['AKIAJBQMHEK2RSVALDQQ'],
+    :secret_access_key => ENV['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']
     }
   }
   #need for paperclip to show images through aws
