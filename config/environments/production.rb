@@ -90,5 +90,6 @@ Kimiglitters::Application.configure do
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
+
   #need for paperclip to show images through aws
 end
